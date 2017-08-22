@@ -15,6 +15,7 @@ The goals / steps of this project are the following:
 [image3]: ./output_images/vehicle_detect.png
 [image4]: ./output_images/vehicle_detection_scales_example.png
 [image5]: ./output_images/vehicle_detection_boxes_example.png
+[image6]: ./output_images/heatmap.png
 
 [video1]: ./project_video_output.mp4
 
@@ -79,6 +80,7 @@ Here's a [link to my video result](./project_video.mp4)
 
 I recorded the positions of positive detections in each frame of the video. I created a class to store the locations of the boxes. Each new frame that's processed goes through this class's box history and if it exceeds a threshold, I remove the oldest boxes and apply thresholding to their heat maps. This reduces flase postives and gives a better detection.
 
+![alt text][image6]
 
 ---
 
