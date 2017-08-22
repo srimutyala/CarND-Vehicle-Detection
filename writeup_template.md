@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 [image1]: ./output_images/samples.png
 [image2]: ./output_images/HOG_features_example.png
-[image3]: ./output_images/vehicle_detect.png
+[image3]: ./output_images/vehicles_detect.png
 [image4]: ./output_images/vehicle_detection_scales_example.png
 [image5]: ./output_images/vehicle_detection_boxes_example.png
 [image6]: ./output_images/heatmap.png
